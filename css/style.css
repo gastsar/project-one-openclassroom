@@ -15,6 +15,7 @@ body {
   margin: 0 auto;
   padding: 0 2rem;
   max-width: 1400px;
+  min-width: 320px;
 }
 i:not(.fa-location-dot) {
   color: var(--color-blue--);
