@@ -42,13 +42,12 @@
     height: 144px;
   }
   .ctn-filtre {
-
     justify-content: center;
     display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  width: 100%;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    width: 100%;
   }
   #menu_header nav ul li:hover a {
     border-top: none !important;
@@ -94,7 +93,7 @@
   .list-card-result {
     display: block;
   }
-  
+
   .view-all {
     display: none;
   }
@@ -113,5 +112,4 @@
     display: block;
     padding: 2rem 1.5rem;
   }
- 
 }

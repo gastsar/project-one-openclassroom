@@ -7,7 +7,6 @@
   }
   .card-main-right img {
     width: 100px;
-    padding: 4px 4px 4px;
   }
   .card-activity {
     height: 267px;
@@ -22,34 +21,33 @@
   }
   .card-main-right .card-image {
     width: auto;
-
   }
   .btn-filtre {
     margin: 0 7px;
   }
   .list-card-activity {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-column-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
   }
   .ctn-filtre {
     display: flex;
     flex-wrap: nowrap;
     width: 90%;
     justify-content: space-around;
-}
+  }
   .list-card-pop {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
   }
-  .list-card-pop .center{
-    margin:0 5px;
+  .list-card-pop .center {
+    margin: 0 5px;
   }
-  .list-card-pop h3{
+  .list-card-pop h3 {
     font-size: 14px;
   }
-  .list-card-pop p{
+  .list-card-pop p {
     font-size: 13px;
   }
 }

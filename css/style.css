@@ -248,23 +248,20 @@ button[type="submit"] i {
 }
 
 .card-activity {
-  border-radius: 20px;
   width: 23%;
 }
 .card-activity .card-image {
   height: 390px;
 }
-.card-activity img {
+.card-activity .card-image img {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
   border-radius: 20px 20px 0px 0px;
   object-fit: cover;
+  padding: 0 !important;
 }
 
-.card-activity .card-title {
-  height: auto;
-}
 .card-activity .card-title p {
   margin: 16px;
 }
